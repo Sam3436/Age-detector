@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Datasets (Large facial image folders)
+data/
+datasets/
+*.zip
+*.csv
+
+# Model Checkpoints and Outputs
+saved_models/
+*.pth
+*.onnx
+outputs/
+results/
+*.png
+*.csv
+
+# Credentials and Keys
+kaggle.json
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
